@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Modeling Consumer Demand</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s03-03-determinants-of-demand.html"><img src="shared/images/batch-left.png"></a> <a href="s03-03-determinants-of-demand.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s03-05-forecasting-demand.html">Next Section</a> <a href="s03-05-forecasting-demand.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="stengel_1.0-ch03_s04" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">3.4</span> Modeling Consumer Demand</h2>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p01">To develop a formal model of consumer demand, the first step is to identify the most important determinants of demand and define variables that measure those determinants. Ideally, we should use variables for which data exist so that statistical estimation techniques can be applied to develop an algebraic relationship between the units of a good consumed and the values of the key determinants. Techniques to derive these algebraic relationships from historical data are outside the scope of this text, but an interested reader may want to consult a text on econometrics.<span class="footnote" id="stengel_1.0-fn03_004">Stock and Watson (2007) is an established econometrics text.</span></p>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p02">We will examine a simple example of a model of consumer demand. Suppose a business is selling broadband services in a community. The managers of the business have identified four key determinants of demand: (a) the price they charge for the service, (b) their advertising expenditure, (c) the price charged by the competition, and (d) the disposable income of their potential customers. They define four variables to measure these determinants:</p>
+    <span class="informalequation block"><span class="mathphrase">P = the price per month of their service, in dollars,</span></span>
+    <span class="informalequation block"><span class="mathphrase">A = advertising expenditure per month, in dollars,</span></span>
+    <span class="informalequation block"><span class="mathphrase">CP = the price per month of the competitor’s service, in dollars,</span></span>
+    <span class="informalequation block"><span class="mathphrase">DIPC = the disposable income per capita, in dollars, as measured by the U.S. Department of Commerce for that month.</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p03">Using past data, they estimate the following equation to relate these variables to number of broadband subscribers to their service during a month, symbolized by Q:</p>
+    <span class="informalequation block"><span class="mathphrase">Q = 25,800 − 800 P + 4 A + 200 CP + 0.4 DIPC.</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p04">This relationship is called a <span class="margin_term"><a class="glossterm">demand function</a><span class="glossdef">The mathematical relationship between price and quantity, holding other variables that influence demand, such as price, advertising expenditure, the price of a substitute or complement, and disposable income, constant.</span></span>.</p>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p05">One application of the demand function is to estimate the consumption quantity Q for specific values of P, CP, and DIPC. Suppose P = $30, A = $5000, CP = $25, and DIPC = $33,000:</p>
+    <span class="informalequation block"><span class="mathphrase">Q = 25,800 − 800(30) + 4(5000) + 200(25) + 0.4(33,000) = 40,000 subscribers</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p06">In <a class="xref" href="stengel_1.0-ch02#stengel_1.0-ch02">Chapter 2 "Key Measures and Relationships"</a>, we introduced a demand curve to describe the relationship between the quantity of items sold and the price of the item. When there are multiple determinants of demand, the demand curve can be interpreted as a reduced view of the demand function where only the price of the product is allowed to vary. Any other variables are assumed to remain at a fixed level. For the previous demand function for broadband service, suppose we assume A is fixed at $5000, CP is fixed at $25, and DIPC is fixed at $33,000. If you substitute these values into the demand function and aggregate constant terms, the demand function becomes</p>
+    <span class="informalequation block"><span class="mathphrase">Q = 64,000 − 800 P.</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p07">Recall that demand curves are usually expressed with price as a function of quantity. With some basic algebra the equation of the demand curve can be written as</p>
+    <span class="informalequation block"><span class="mathphrase">P = $80 − $0.00125 Q.</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p08">What happens to the demand curve if one of the other variables is a different value? Well, in short, the demand curve would shift. Suppose the competitor decides to increase its price to $35. Repeating the preceding steps, the demand function simplifies to</p>
+    <span class="informalequation block"><span class="mathphrase">Q = 66,000 − 800 P</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p09">or, expressed with P as a function of Q,</p>
+    <span class="informalequation block"><span class="mathphrase">P = $82.50 − 0.00125 Q.</span></span>
+    <p class="para editable block" id="stengel_1.0-ch03_s04_p10"><a class="xref" href="stengel_1.0-ch03_s05#stengel_1.0-ch03_s05_f01">Figure 3.1 "Shift in Demand Curve for Broadband Service Caused by Increase of Competitor Price From $25/month to $35/month"</a> shows a graph of the demand curve before and after the shift. Effectively, the result is that the broadband firm would see its demand increase by 2000 customers per month, or alternatively, the firm could raise its price to $32.50 and still maintain 40,000 customers per month.</p>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s03-03-determinants-of-demand.html"><img src="shared/images/batch-left.png"></a> <a href="s03-03-determinants-of-demand.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s03-05-forecasting-demand.html">Next Section</a> <a href="s03-05-forecasting-demand.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  
+</body>
+</html>
